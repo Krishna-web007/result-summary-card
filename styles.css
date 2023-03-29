@@ -1,0 +1,119 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    height: 600px;
+    width: 1440px;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0%;
+    color: hsl(0, 0%, 100%);
+    padding-top: 30px;
+}
+
+
+h3{
+    padding-top: 20px;
+}
+
+p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+}
+
+
+.card{
+    text-align: center;
+    height: 400px;
+    width: 620px;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.result{
+    background-color: hsl(241, 81%, 54%);
+    height: 400px;
+    width: 310px;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0;
+    border-radius: 8%;
+}
+
+.circle{
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 100%;
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left: 70px;
+}
+
+.summary{
+    height: 400px;
+    width: 310px;
+    position: relative;
+    left: 310px;
+    bottom: 420px;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-right: 0.5px solid #bec2d3;
+    border-bottom: 0.5px solid #bec2d3;
+    border-radius: 8%;
+}
+
+table{
+    height: 190px;
+    width: 300px;
+}
+
+.row1{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+    margin-left: 25px;
+}
+
+.row2{
+    background-color: hsla(39, 100%, 56%, 0.2);
+    color: hsl(39,100%, 56%);
+}   
+
+.row3{
+    background-color: hsla(166, 100%, 37%, 0.2);
+    color: hsl(166,100%, 37%);
+
+}
+
+.row4{
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+.btn {
+    position: relative;
+    left: 30px;
+    top: 60px;
+    text-align: center;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #303b5a;
+    padding: 10px 85px 10px 85px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0c69a3;
+    text-decoration: none;
+}
+
+
